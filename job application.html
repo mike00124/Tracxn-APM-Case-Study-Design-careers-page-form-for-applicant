@@ -1,0 +1,23 @@
+<form id="jobApplicationForm">
+    <h2>Apply for Jobs</h2>
+    <div class="form-group">
+        <label for="jobSelection">Select Job(s) of Interest</label>
+        <select id="jobSelection" name="jobSelection" class="form-control" multiple required>
+            <option value="job1">Job 1 - Product Manager</option>
+            <option value="job2">Job 2 - Software Engineer</option>
+            <option value="job3">Job 3 - UX/UI Designer</option>
+            <!-- Add more job options as needed -->
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="resume">Upload Resume</label>
+        <input type="file" id="resume" name="resume" class="form-control-file">
+        <small class="form-text text-muted">Upload your resume in PDF or Word format.</small>
+    </div>
+    <div class="form-group">
+        <label for="coverLetter">Upload Cover Letter</label>
+        <input type="file" id="coverLetter" name="coverLetter" class="form-control-file">
+        <small class="form-text text-muted">Upload your cover letter in PDF format.</small>
+    </div>
+    <button type="submit" class="btn btn-primary">Apply Now</button>
+</form>
