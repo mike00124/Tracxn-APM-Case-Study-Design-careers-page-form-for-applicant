@@ -1,0 +1,49 @@
+Certainly! Based on the problem statement provided by Tracxn for designing the careers page form for applicants of WTR Corporation, here's a structured approach to address the case study:
+
+Problem Statement:
+WTR Corporation, a product company specializing in HR management systems for Media & Telecommunications industries, aims to revamp its careers page. The goal is to enable applicants to sign up on the website using their email IDs and subsequently apply for available jobs.
+
+Use Case:
+Objective: Design a user-friendly form for the careers page that facilitates applicant registration and job application processes.
+Constraints: Implement email ID-based logins exclusively, omitting phone number and social media logins.
+User Flow:
+Registration Flow:
+
+Applicants visit the careers page.
+They are prompted to register by providing necessary details.
+Upon successful registration, they receive a confirmation email.
+Job Application Flow:
+
+Registered users log in using their email IDs.
+They view available job listings.
+They select jobs of interest and proceed to submit their applications.
+Assumptions:
+Only email ID-based logins are supported; phone number and social media logins (Google+, Facebook, etc.) are not considered.
+Applicants will register directly on the WTR website without external authentication methods.
+Design Considerations:
+Registration Form:
+
+Fields: Name, Email Address, Password (for account creation), Confirm Password.
+Design: Clean and intuitive layout with clear labels and input fields.
+Validation: Ensure email address format validation and password strength indicator.
+Button: "Register" to submit the form.
+Login Form:
+
+Fields: Email Address, Password.
+Design: Simple and accessible, with login button prominently displayed.
+Validation: Verify email address and password correctness.
+Option: "Forgot Password?" link for password reset.
+Job Application Form:
+
+Fields: Select Job(s) of Interest, Upload Resume (optional), Cover Letter (optional).
+Design: Clear checkboxes or dropdowns for job selection.
+Instructions: Provide clear guidance on file formats and size limits for resume and cover letter uploads.
+Button: "Apply Now" to submit the application.
+Additional Features:
+Confirmation Emails: Send confirmation emails upon successful registration and job application submissions.
+Accessibility: Ensure the form is accessible and responsive across different devices (desktop, mobile, tablet).
+Privacy: Implement necessary data privacy measures and disclose terms of service.
+Conclusion:
+By focusing on a straightforward, user-centric design, WTR Corporation can enhance the applicant experience on their careers page, fostering a seamless registration and application process tailored to their specific needs and constraints.
+
+This approach aligns with the provided problem statement and aims to optimize usability and functionality for prospective applicants interacting with WTR's website.
